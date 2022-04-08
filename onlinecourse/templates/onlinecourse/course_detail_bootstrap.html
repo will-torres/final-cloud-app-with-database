@@ -95,10 +95,13 @@
                                                value="{{choice.id}}">{{ choice.choice_text }}
                                     </label>
                                 </div>
+                                {% endfor %}
                             </div>
                         </div>
                     <input class="btn btn-success btn-block" type="submit" value="Submit">
+                    {% endfor %}
             </form> 
+            {% endif %}
             </div>
 
             <!--Check here to see more details Bootstrap checkbox
